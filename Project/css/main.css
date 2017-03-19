@@ -1,0 +1,949 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+    overflow-x: hidden !important;
+    background-position: center;
+    background-size: cover;
+}
+
+    html.suitesLanding {
+        background: url('../img/suites/Select Page/Suites.jpg') no-repeat center center fixed;
+    }
+
+    html.residenceLanding {
+        background: url('../img/Residence/Residence-Top.jpg') no-repeat center center fixed;
+    }
+
+body {
+    background-color: transparent;
+    position: relative;
+}
+
+    body.contact {
+        background-color: #F8F8F7;
+    }
+
+.noPad {
+    padding: 0;
+}
+
+#landing {
+    background-image: url(../img/landing/Marquee-Image.jpg);
+    background-size: cover;
+    padding: 25px 15px;
+    background-position: center;
+}
+
+.bgImg {
+    background-size: cover;
+    background-position: center;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.btn-default {
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+
+    .btn-default:hover {
+        background-color: #444;
+        color: #Fff;
+    }
+
+.separator {
+    display: inline-block;
+    width: 250px;
+    border-bottom: 2px solid #fff;
+    margin: 20px 0 10px 0;
+}
+
+    .separator.small {
+        width: 50px;
+        border-bottom: 3px solid #fff;
+    }
+
+        .separator.small.black {
+            width: 50px;
+            border-bottom: 3px solid #444;
+            margin-top: -5px;
+            margin-bottom: 0px;
+        }
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+    .raleway.bold {
+        font-weight: 700;
+    }
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #707070;
+    font-size: 12px;
+}
+
+.wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.innerWrap {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#about {
+    background-image: url(../img/landing/About-Background.jpg);
+}
+
+.btn {
+    padding: 12px 40px;
+}
+
+footer {
+    background-color: #393939;
+    padding: 15px;
+}
+
+.footnav a {
+    color: #fff;
+    padding: 5px 15px;
+    display: block;
+}
+
+#social-media-icons ul{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+#social-media-icons ul li{
+    display:inline-block;
+    padding-left:3px;
+    padding-right:4px;
+}
+
+#community {
+    background-image: url(../img/Community/Community-TopImage.jpg);
+}
+
+#design {
+    background-image: url(../img/Design/Design-TopImage.jpg);
+}
+
+#sustainable {
+    background-color: #A6B8A7;
+    margin-top: 75px;
+}
+
+#sustainableliving {
+    background-image: url(../img/Sustainability/Sustainability-TopImage.jpg);
+}
+
+#marquee {
+    background-image: url(../img/Marquee/Marquee-Top.jpg);
+}
+
+#residence {
+    background-image: url(../img/residence/Residence-TopImage.jpg);
+}
+
+#suitesSub {
+    background-image: url(../img/Suites/Suite-Top-Image.jpg);
+}
+
+.designNav {
+    background-color: #f1f1f1;
+    margin-top: 15px;
+}
+
+    .designNav span {
+        display: block;
+        margin-top: 10px;
+    }
+
+.plansNav {
+    background-color: #f1f1f1;
+}
+
+    .plansNav h4 {
+        color: #5FA5D6;
+    }
+
+.feature {
+    height: 100px;
+    padding-top: 63px;
+    padding-bottom: 20px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.susFeature {
+    height: 105px;
+    padding-top: 63px;
+    padding-bottom: 20px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#feature1 {
+    background-image: url('../img/Design/Features Icons/ExteriorBuilding.png');
+}
+
+    #feature1:hover, #feature1.selected {
+        background-image: url('../img/Design/Features Icons/ExteriorBuilding-over.png');
+    }
+
+#feature2 {
+    background-image: url('../img/Design/Features Icons/InteriorFeatures.png');
+}
+
+    #feature2:hover, #feature2.selected {
+        background-image: url('../img/Design/Features Icons/InteriorFeatures-Over.png');
+    }
+
+#feature3 {
+    background-image: url('../img/Design/Features Icons/OutdoorPatio.png');
+}
+
+    #feature3:hover, #feature3.selected {
+        background-image: url('../img/Design/Features Icons/OutdoorPatio-Over.png');
+    }
+
+#feature4 {
+    background-image: url('../img/Design/Features Icons/Lobby.png');
+}
+
+    #feature4:hover, #feature4.selected {
+        background-image: url('../img/Design/Features Icons/Lobby-Over.png');
+    }
+
+#feature5 {
+    background-image: url('../img/Design/Features Icons/Amenities.png');
+}
+
+    #feature5:hover, #feature5.selected {
+        background-image: url('../img/Design/Features Icons/Amenities-Over.png');
+    }
+
+#sustain1 {
+    background-image: url('../img/Sustainability/Icons/Community.png');
+}
+
+    #sustain1:hover, #sustain1.selected {
+        background-image: url('../img/Sustainability/Icons/Community-Over.png');
+    }
+
+#sustain2 {
+    background-image: url('../img/Sustainability/Icons/Health.png');
+}
+
+    #sustain2:hover, #sustain2.selected {
+        background-image: url('../img/Sustainability/Icons/Health-Over.png');
+    }
+
+#sustain3 {
+    background-image: url('../img/Sustainability/Icons/BuiltGreen.png');
+}
+
+    #sustain3:hover, #sustain3.selected {
+        background-image: url('../img/Sustainability/Icons/BuiltGreen-Over.png');
+    }
+
+#sustain4 {
+    background-image: url('../img/Sustainability/Icons/Responsibility.png');
+}
+
+    #sustain4:hover, #sustain4.selected {
+        background-image: url('../img/Sustainability/Icons/Responsibility-Over.png');
+    }
+
+.feature:hover, .feature.selected {
+    color: #d5441c;
+}
+
+.plan {
+    background-color: #f1f1f1;
+}
+
+    .plan.availPlan {
+        background-color: #fff;
+        border-top: 1px solid #444;
+    }
+
+.susFeature:hover, .susFeature.selected {
+    color: #87a792;
+}
+
+.sustainSubNav {
+    background-color: #87a792;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .sustainSubNav a {
+        color: #fff !important;
+    }
+
+.featuresSubNav, .patioSubNav {
+    background-color: #d5441c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .featuresSubNav a, .patioSubNav a {
+        color: #fff !important;
+    }
+
+.sustainContent {
+    background-color: #f1f1f1;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.inlineBigScreen {
+    display: block;
+    color: #444444;
+}
+
+a.inlineBigScreen {
+    font-weight: 500;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+a.timeS {
+    cursor: pointer;
+}
+
+    a.timeS.selected {
+        font-weight: 700;
+    }
+
+hr {
+    border-top: 1px solid #e5e5e5;
+}
+
+.amenties h4 {
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+    .amenties h4 .glyphicon {
+        margin-right: 5px;
+    }
+
+.alist {
+    padding-left: 0;
+}
+
+    .alist li {
+        list-style: none;
+        color: #707070;
+    }
+
+.imgNav div {
+    margin-top: 20px;
+}
+
+.imgNav img {
+    margin-bottom: 20px;
+}
+
+.subHeader {
+    padding: 20px 15px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgba(0,0,0,0.7);
+}
+
+.navbar.c {
+    background-color: #F8F8F7;
+}
+
+#applyBtn {
+    color: #fff;
+    border: 1px solid #C75D5A;
+    background-color: #C75D5A;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+    #applyBtn.contact, #applyBtn:hover {
+        border: 1px solid #C75D5A;
+    }
+
+.navbar-brand {
+    padding-top: 5px;
+}
+
+#menu {
+    padding-top: 16px !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+#smenu {
+    position: fixed;
+    top: 13px;
+    right: 15px;
+    z-index: 5000;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btnRow {
+    padding-top: 10px;
+}
+
+.plan h4 {
+    font-size: 25px;
+}
+
+.questions h4 {
+    font-size: 22px;
+}
+
+.bradio label {
+    display: block;
+}
+
+.rspan {
+    margin-left: -8px;
+}
+
+.sort {
+    cursor: pointer;
+}
+
+    .sort.selected {
+        color: #5FA5D6;
+    }
+
+.availability {
+    display: inline-block;
+    position: relative;
+    display: none;
+}
+
+.floorSelector {
+    display: inline-block;
+    position: relative;
+}
+
+.floor {
+    /*width: 11%;*/
+    /*height: 6.5%;*/
+    width: 100%;
+    height: 7%;
+    /*background-color: aqua;*/
+    opacity: .5;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fselector {
+    border-right: 1px solid #444;
+}
+
+.sh4 {
+    font-size: 24px;
+}
+
+.status {
+    position: absolute;
+    color: #fff !important;
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 4px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+    .status.available {
+        background-color: #488C40;
+    }
+
+    .status.leased {
+        background-color: #D54826;
+        cursor: default;
+    }
+
+.responsive {
+    width: 100%;
+}
+
+.writeups h5 {
+    margin-bottom: 0;
+}
+
+.writeups hr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.features {
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.marker {
+    position: absolute;
+    cursor: pointer;
+}
+
+.seeMore {
+    color: #d5441c;
+    cursor: pointer;
+}
+
+.popover {
+    border-radius: 0;
+    border-bottom: 4px solid #d5441c;
+}
+
+    .popover.top .arrow:after {
+        border-top-color: #d5441c;
+    }
+
+.ficon {
+    cursor: pointer;
+}
+
+.popover-content .sh4 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.featureList {
+    padding-left: 15px;
+}
+
+    .featureList li b {
+        margin-right: 5px;
+    }
+
+.question {
+    display: none;
+}
+
+.planInfo .sh4 {
+    font-size: 18px;
+}
+
+.form-control {
+    background-color: #EAEAE9;
+    border-radius: 0;
+    border-color: #444;
+    color: #444;
+}
+
+    .form-control:focus {
+        border-color: #444;
+    }
+
+#gmap {
+    height: 300px;
+}
+
+#moss {
+    margin-top: -120px;
+}
+
+.table-bordered {
+    border-left: none;
+    border-right: none;
+    border-color: #000;
+    border-top: none;
+}
+
+    .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+        border: 1px solid #000;
+    }
+
+        .table-bordered > tbody > tr > td:nth-of-type(1) {
+            border-left: none;
+        }
+
+        .table-bordered > thead > tr > td:nth-of-type(1) {
+            border-left: none;
+        }
+
+        .table-bordered > tbody > tr > td:nth-of-type(4) {
+            border-right: none;
+        }
+
+        .table-bordered > thead > tr > td:nth-of-type(4) {
+            border-right: none;
+        }
+
+.availTbl {
+    display: none;
+    margin-top: 25px;
+}
+
+.closeBtn {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.viewinbuilding {
+    cursor: pointer;
+}
+
+.subNavFeatures {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+
+.cSelector {
+    cursor: pointer;
+}
+
+    .cSelector.selected {
+        color: #444 !important;
+    }
+
+.carousel-indicators .active {
+    background-color: #87a792;
+    border: 1px solid #87a792;
+}
+
+.carousel-indicators li {
+    background-color: #444;
+    border: 1px solid #444;
+}
+
+.sideNav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1500;
+    background: rgba(0,0,0,0.5);
+}
+
+    .sideNav img {
+        width: 100%;
+    }
+
+.sideNavRow .col-xs-6 {
+    padding: 0;
+}
+
+.overlay {
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    text-transform: uppercase;
+    width: 80%;
+    left: 10%;
+}
+
+#close {
+    color: #fff;
+    font-size: 25px;
+    position: fixed;
+    right: 25px;
+    top: 55px;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.cbtn {
+    background-color: #fff;
+}
+
+.plansWrap {
+    margin-bottom: 25px;
+}
+
+.tabMobCenter {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.navOpaque {
+    opacity: .7;
+}
+
+    .navOpaque:hover {
+        opacity: 1;
+    }
+
+.cwrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.planHead {
+    border-top: 2px solid #444;
+    border-bottom: 2px solid #444;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.vBackground {
+    position: relative;
+    top: 0;
+}
+
+.videoBg {
+    position: relative;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.vOverlay {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+.news {
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+    .news h4, .news h6 {
+        color: #444;
+    }
+
+.newsH {
+}
+
+.newsInner {
+    padding: 15px;
+}
+
+.newsC {
+    font-family: 'Raleway', sans-serif !important;
+}
+.error{
+    color:red;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .newsInner {
+        height: 180px;
+    }
+
+    #landing {
+        background-image: none;
+    }
+
+    .cimg {
+        width: 70%;
+    }
+
+    .cwrap {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 43px;
+    }
+
+    .feature {
+        height: 61px;
+    }
+
+    .header {
+        padding: 100px 15px;
+    }
+
+    .subHeader {
+        padding: 50px 15px;
+    }
+
+    .separator {
+        margin: 20px 0 10px 0;
+    }
+
+        .separator.small {
+            margin: 20px 0 20px 0;
+        }
+
+    footer p {
+        padding-top: 25px;
+    }
+
+    .footnav a {
+        display: inline;
+    }
+
+    .inlineBigScreen {
+        display: inline-block;
+    }
+
+    .cover {
+        padding-top: 10%;
+    }
+
+    .imgNav {
+        margin-top: 45px;
+    }
+
+    .plan {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .planInfo {
+        padding-top: 30px;
+    }
+
+    .status {
+        padding: 8px;
+    }
+
+    .suitesRow {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    #gmap {
+        height: 500px;
+    }
+
+    .carousel-indicators {
+        bottom: 0;
+    }
+
+    #close {
+        font-size: 30px;
+        top: 10px;
+    }
+
+    .overlay {
+        font-size: 12px;
+    }
+
+    .tabMobCenter {
+        text-align: justify;
+    }
+
+    .vOverlay {
+        top: 10%;
+    }
+
+    .vBackground .vOverlay img:first-child{
+        width:140px;
+    }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .bigL {
+        text-align: left;
+    }
+
+    .bigR {
+        text-align: right;
+    }
+
+    .status {
+        padding: 4px;
+    }
+
+    #close {
+        font-size: 30px;
+    }
+
+    .overlay {
+        font-size: 16px;
+    }
+
+    .tabMobCenter {
+        text-align: left;
+    }
+
+    .vOverlay {
+        top: 10%;
+    }
+    .separator {
+        margin: 40px 0 20px 0;
+    }
+    .vBackground .vOverlay img:first-child{
+        width:initial;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .bigL {
+        text-align: left;
+    }
+
+    .bigR {
+        text-align: right;
+    }
+
+    .status {
+        padding: 8px;
+    }
+
+    .overlay {
+        font-size: 20px;
+    }
+
+    #close {
+        font-size: 40px;
+    }
+
+    .tabMobCenter {
+        text-align: left;
+    }
+
+    .vOverlay {
+        top: 20%;
+    }
+}
