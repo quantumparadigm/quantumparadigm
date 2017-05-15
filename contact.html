@@ -8,6 +8,8 @@
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
 
+    
+
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
 
@@ -16,6 +18,7 @@
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
+    
 
 <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
 
@@ -26,7 +29,19 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
-<script src="contactform/contactform.js"></script>
+    
+            
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+   
+    <!-- Bootstrap -->
+      
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="bootstrap-3.3.7\dist\css/bootstrap.min.css" rel="stylesheet">
+      
+   
+      
+      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"> </script>
 
 <!-- =======================================================
     Theme Name: Knight
@@ -92,33 +107,71 @@
 -->
                 
             </div>
-        	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-            	<div class="form">
-                	
-                    <div id="sendmessage">Your message has been sent. Thank you!</div>
-                    <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
-                        <div class="form-group">
-                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                        </div>
-                        
-                        <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
-                    </form>
-                </div>	
-            </div>
+     	 <div class="col-lg-5 col-sm-5 wow fadeInUp delay-05s">
+                
+                
+             
+
+    <form class="form-horizontal" action="q.paradigm@hotmail.com" method="post"  id="contact_form" data-toggle="validator">
+<fieldset>
+
+<!-- Form Name -->
+
+<!-- Text input-->
+
+<div class="form-group">
+<!--   <label class="control-label">Name</label>  -->
+ 
+  <div class="input-group">
+  <span class="input-group-addon"><i class="contact-glyphicon glyphicon glyphicon-user"></i></span>
+  <input  name="name" placeholder="Name" class="form-control"  type="text">
+    </div>
+  </div>
+
+
+
+       <div class="form-group">
+  
+
+    <div class="input-group">
+        <span class="input-group-addon"><i class="contact-glyphicon glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+
+  
+<div class="form-group">
+  
+    <div class="input-group">
+        <span class="input-group-addon"><i class="contact-glyphicon glyphicon glyphicon-pencil"></i></span>
+        	<input name="subject" placeholder="Subject" class="form-control"  type="text">
+  </div>
+  </div>
+
+    
+    <div class="form-group">
+  
+    <div class="input-group">
+        <span class="input-group-addon"><i class="contact-glyphicon glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="message" placeholder="Message"></textarea>
+  </div>
+  </div>
+
+
+<!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="contact-glyphicon glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-danger btn-lg" >Send Message<span class="contact-glyphicon glyphicon-send glyphicon glyphicon-send"></span></button>
+    
+  </div>
+</div>
+
+</fieldset>
+</form>
         </div>
 </section>
 </div>
@@ -231,6 +284,9 @@ $(window).load(function(){
 });
 
 </script>
+    
+      <script src="bootstrap-3.3.7\dist\js/bootstrap.min.js"></script>
+      <script src="./js/script.js"></script> 
 
 </body>
 </html>
