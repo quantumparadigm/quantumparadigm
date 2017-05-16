@@ -1,3 +1,7 @@
+
+"use strict";
+
+
 $(document).ready(function () {
     $('div.hiddenTitle').fadeIn(1000).removeClass('hiddenTitle');
                                                     
@@ -17,8 +21,6 @@ $(document).ready(function () {
     $('div.container-fluid-Home').fadeIn(2000).removeClass('container-fluid-Home');
                                                     
 });
-
-
 
 
 
