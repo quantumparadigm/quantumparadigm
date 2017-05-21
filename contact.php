@@ -3,11 +3,10 @@
  *  CONFIGURE EVERYTHING HERE
  */
 
-// an email address that will be in the From field of the email.
-$from = 'lil-khaled@hotmail.com';
+$from = 'Demo contact form <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'q.paradigm@hotmail.com';
+$sendTo = 'Demo contact form <demo@domain.com>';
 
 // subject of the email
 $message = $_POST['form_message'];
