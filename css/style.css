@@ -97,9 +97,19 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	background:url(../img/calgary%20skyline.jpg);
+    background-position: top;
+	padding:150px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+    background-attachment: fixed;
+
+   
+
+
 }
+
 .logo{
 	width:130px;
 	margin:0 auto 35px;
@@ -124,9 +134,9 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: white;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 700;
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
 }

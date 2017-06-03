@@ -26,7 +26,9 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
 <script src="contactform/contactform.js"></script>
+<script src="js/script.js"></script>
 
 <!-- =======================================================
     Theme Name: Knight
@@ -37,7 +39,7 @@
 
 </head>
 <body>
-<header class="header" id="header"><!--header-start-->
+<header class="header" id="header" data-stellar-background-ratio="0.5"><!--header-start-->
 	<div class="container">
     	<figure class="logo animated fadeInDown delay-07s">
         	<a href="#"><img src="img/logo.png" alt=""></a>	
@@ -50,7 +52,8 @@
     </div>
 </header><!--header-end-->
 
-<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+    <!--
+<nav class="main-nav-outer" id="test"><!--main-nav-start--
 	<div class="container">
         <ul class="main-nav">
         	<li><a href="#header">Home</a></li>
@@ -62,7 +65,6 @@
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav><!--main-nav-end-->
-
 
 
 <section class="main-section" id="service"><!--main-section-start-->
@@ -169,6 +171,8 @@
 </footer>
 
 
+    
+    
 <script type="text/javascript">
     $(document).ready(function(e) {
         $('#test').scrollToFixed();
@@ -214,6 +218,7 @@
 		});
 	})
 </script>
+    
 
 <script type="text/javascript">
 
@@ -259,6 +264,7 @@ $(window).load(function(){
     });
   
 });
+    
 
 </script>
 

@@ -2,28 +2,31 @@
 "use strict";
 
 
-$(document).ready(function () {
-    $('div.hiddenTitle').fadeIn(1000).removeClass('hiddenTitle');
-                                                    
+
+
+
+var velocity = 0.5;
+
+function update(){ 
+    var pos = $(window).scrollTop(); 
+    $('.header').each(function() { 
+        var $element = $(this);
+        // subtract some from the height b/c of the padding
+        var height = $element.height()-450;
+        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
+    }); 
+};
+
+$(window).bind('scroll', update);
+
+/*
+$.stellar({
+    horizontalScrolling: false,
+    responsive: true
 });
+*/
 
-$(document).ready(function () {
-    $('div.hiddenServices').fadeIn(1500).removeClass('hiddenServices');
-                                                    
-});
-
-$(document).ready(function () {
-    $('div.hiddenContainer').fadeIn(2000).removeClass('hiddenContainer');
-                                                    
-});
-
-$(document).ready(function () {
-    $('div.container-fluid-Home').fadeIn(2000).removeClass('container-fluid-Home');
-                                                    
-});
-
-
-
+/*
 $(document).ready(function () {
     $('#contact_form').bootstrapValidator({
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
@@ -97,4 +100,4 @@ $(document).ready(function () {
         });
 });
 
-
+*/
