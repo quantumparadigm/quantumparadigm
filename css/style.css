@@ -109,7 +109,7 @@ p{
 
 .index{
 	text-align:center;
-	background-image:url(../img/image4Change.jpg);
+	background-image:url(../img/image4ChangeResize.jpg);
     background-position: center;
     
     height: 100%;
@@ -127,7 +127,7 @@ p{
 .about header{
     
     text-align:center;
-	background-image:url(../img/image3Change.jpg);
+	background-image:url(../img/image3ChangeResize.jpg);
     background-position: top;
     
     padding: 215px 0px;
@@ -976,7 +976,7 @@ border: 2px solid #fff;
 
     
     text-align:center;
-	background-image:url(../img/image3Change.jpg);
+	background-image:url(../img/image3ChangeResize.jpg);
     background-position: top;
     
     padding: 315px 0px;
