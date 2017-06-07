@@ -9,6 +9,13 @@
 
 /* Float Elements 
 ---------------------------------*/
+
+
+p, body, h1, h2,h3,h4 {
+    font-family: 'WorkSans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+
 .fl-lt {float:left;}
 .fl-rt {float:right;}
 
@@ -97,46 +104,152 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/calgary%20skyline.jpg);
-    background-position: top;
-	padding:150px 0;
+    padding-top: 100px;
+}
+
+.index{
+	text-align:center;
+	background-image:url(../img/image4Change.JPG);
+    background-position: center;
+    
+    height: 100%;
+    width: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
-  
+	background-size: cover; 
     background-attachment: fixed;
+}
 
+
+.about {
    
-
-
+    
+}
+.about header{
+    
+    text-align:center;
+	background-image:url(../img/image3Change.jpg);
+    background-position: top;
+    
+    padding: 215px 0px;
+   
+	background-repeat: no-repeat;
+	background-size: cover; 
+    background-image: fixed;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
 }
 
 .logo{
-	width:130px;
-	margin:0 auto 35px;
+	margin:0 auto 10px;
 }
 .header h1{
-	font-family: 'Montserrat',sans-serif;
-	font-size:50px;
+	font-family: 'Pirata One', cursive, 'Montserrat',sans-serif;
+	font-size:125px;
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
 	color:#fff;
 }
 
-.we-create{
-	padding:0;
-	margin:35px 0 55px;
+.header .firstLogo {
+    padding-right: 130px;
 }
+
+.header .secondLogo {
+ bottom: 45px;
+    position: relative;
+}
+
+.about .header h1{
+    font-size: 85px;
+    
+}
+
+.footerIndex {
+    position: relative;
+    top: 100px;
+}
+
+
+.header .firstLogoAbout {
+padding-right: 90px;
+}
+.header .secondLogoAbout {
+    position: relative;
+    bottom: 37px;
+}
+
+
+    
+
+.we-create{
+    position: relative;
+    bottom: 0px;
+	padding:0;
+    
+	
+}
+
+.we-create h3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: white;
+}
+
+.about .we-create h3 {
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+.about .we-create a  {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.about .we-create a:hover {
+  color: #000;
+}
+
+.about .we-create a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+about .we-create a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
 .wp-pic{
 	margin-bottom:20px;
 }
 .we-create li{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
-	font-size:14px;
+	font-size:19px;
 	color: white;
 	text-transform: uppercase;
-	font-weight: 700;
+	
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
 }
@@ -183,6 +296,25 @@ color: #fff;
 
 /* Navigation
 ---------------------------------*/
+
+@media (min-width: 768px)
+{
+    .navbar-header
+    {
+        float: none;
+    }
+
+    .navbar-toggle
+    {
+        display: block;
+    }
+
+    .navbar-collapse.collapse
+    {
+        display: none !important;
+    }
+}
+
 .main-nav-outer{
 	padding:0px;
 	border-bottom:1px solid #dddddd;
@@ -222,8 +354,67 @@ color: #fff;
 	padding:0 32px;
 }
 
-.main-section{
-	padding:90px 0 110px;
+/*
+.parent {
+    position: relative;
+    visibility: visible;
+    overflow: hidden;
+   
+ 
+    height: 1200px;
+    width: 100%;
+}
+
+.imgA1 {
+  
+    padding-top: 100px;
+    width: 1259px;
+    position: relative;
+    
+    
+}
+.imgB1 {
+     position: absolute;
+     visibility: visible;
+   
+    left: 0px;
+overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    height: 100%;
+    width: 100%;
+
+}
+*/
+
+
+.main-section {
+  
+ 
+    padding: 100px;  
+}
+
+.main-section h2 {
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.main-section p {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.main-section:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+   background:white;
+    width: 100%;
+    height: 100%;
+    opacity : 0.1;
+    z-index: -1;
 }
 
 
@@ -782,18 +973,72 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:35px 0 35px;
+
+    
+    text-align:center;
+	background-image:url(../img/image3Change.jpg);
+    background-position: top;
+    
+    padding: 315px 0px;
+   
+	background-repeat: no-repeat;
+	background-size: cover; 
+    background-image: fixed;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+
 }
-.footer-logo{
-	margin:15px auto 35px;
-	width: 76px;
+.footer h1{
+	font-family: 'Pirata One', cursive, 'Montserrat',sans-serif;
+	font-size:125px;
+	font-weight:400;
+	letter-spacing: -1px;
+	margin:0 0 22px 0 ;
+	color:#fff;
 }
+
+.footer .firstLogo {
+    padding-right: 130px;
+}
+
+.footer .secondLogo {
+ bottom: 45px;
+    position: relative;
+}
+
+.about .footer h1{
+    font-size: 45px;
+    
+}
+
+
+
+.footer .firstLogoAbout {
+padding-right: 90px;
+}
+.footer .secondLogoAbout {
+    position: relative;
+    bottom: 37px;
+}
+
 .copyright, .credits{
 	color:#cccccc;
-	font-size:14px;
+	font-size:12px;
 	display:block;
 	text-align:center;
+}
+
+.about .copyright, .credits{
+	color:#cccccc;
+	font-size:12px;
+	display:block;
+	text-align:center;
+    position: relative;
+    top: 300px;
 }
 .copyright a, .credits a{
 	color:#7cc576;
@@ -889,6 +1134,12 @@ border: 2px solid #fff;
     margin-left: 7px;
 }
 
+.glyphicon {
+    font-size: 150px;
+    opacity: 0.4;
+    color: black;
+}
+
 .container-contact{
     padding-right: 1em;
 }
@@ -902,3 +1153,64 @@ textarea{
   min-height:150px;  
   max-height:200px;
 }
+
+/* Menu    */
+
+
+
+.menu {
+  cursor: pointer;
+  margin: 0 auto;
+  padding-left: 1.25em;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.menu-global {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 7px solid white;
+  width: 100%;
+  -webkit-transition: 0.55s;
+  transition: 0.55s;
+}
+
+.menu-top {
+  top: 0;
+}
+
+.menu-middle {
+  top: 18px;
+}
+
+.menu-bottom {
+  top: 36px;
+}
+
+.menu-top-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 15px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition: 0.55s 0.5s;
+  transition: 0.55s 0.5s;
+}
+
+.menu-middle-click {
+  opacity: 0;
+}
+
+.menu-bottom-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 15px;
+  -webkit-transform: rotate(-410deg);
+          transform: rotate(-410deg);
+  -webkit-transition: 0.55s 0.5s;
+  transition: 0.55s 0.5s;
+}
+
