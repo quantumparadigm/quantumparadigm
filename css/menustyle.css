@@ -4,7 +4,6 @@ p, body, h1, h2,h3,h4 {
 }
 
 
-
 h1, h2,h3,h4 {
     text-transform: uppercase;
     font-weight: 700;
@@ -317,7 +316,10 @@ padding-right: 100px;
 .footerIndex {
     position: relative;
     top: 95px;
+    color: grey;
 }
+
+
 
 
  .firstLogo {
@@ -443,6 +445,8 @@ a:hover{
  .logo h1 {
         font-size: 97px;
     }
+
+
 
 .footer{
 
@@ -571,8 +575,83 @@ text-align: center;
 
 
 
+/* -------------------Contact Page -----------------------*/
+
+.contact {
+    background-image: url(../img/image2.JPG);
+        text-align:center;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+    background-image: fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.contact .container {
+    display: table;
+    padding: 45px 370px 0 370px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+  
+}
+
+.contact .firstLogo {
+    font-size: 65px;
+    color: white;
+      padding-right: 66px;
+}
 
 
+.contact .secondLogo {
+    font-size: 65px;
+    color: white;
+     bottom: 35px;
+    position: relative;
+}
 
+.contact h2 {
+    letter-spacing: 3px;
+    font-weight: 700;
+}
 
+hr {
+    border: none;
+    border-bottom: 2px solid 
+}
 
+.address h4, .address h5{
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.phone, .email {
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.contactUs {
+    display: inline;
+}
+
+a {
+    color: white;
+}
+
+.footerContact {
+    position: relative;
+    top: 125px;
+    color: grey;
+}
+
+.contactLogo {
+    
+    position: relative;
+    left: 10px;
+}
