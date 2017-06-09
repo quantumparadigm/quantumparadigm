@@ -112,6 +112,7 @@ p, body, h1, h2,h3,h4 {
     padding-top: 100px;
 }
 
+<<<<<<< HEAD
 .headerAbout{
     text-align:center;
     padding-top: 100px;
@@ -119,6 +120,11 @@ p, body, h1, h2,h3,h4 {
 .index{
 	text-align:center;
 	background-image:url(../img/image4Change.JPG);
+=======
+.index{
+	text-align:center;
+	background-image:url(../img/image4ChangeResize.jpg);
+>>>>>>> master
     background-position: center;
     
     height: 100%;
@@ -127,6 +133,7 @@ p, body, h1, h2,h3,h4 {
 	background-size: cover; 
     background-attachment: fixed;
 }
+<<<<<<< HEAD
 
 
 
@@ -134,6 +141,18 @@ p, body, h1, h2,h3,h4 {
     
     text-align:center;
 	background-image:url(../img/image3Change.jpg);
+=======
+
+
+.about {
+   
+    
+}
+.about header{
+    
+    text-align:center;
+	background-image:url(../img/image3ChangeResize.jpg);
+>>>>>>> master
     background-position: top;
     
     padding: 215px 0px;
@@ -237,6 +256,7 @@ padding-right: 90px;
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+<<<<<<< HEAD
 }
 
 about .we-create a:hover:before {
@@ -245,6 +265,16 @@ about .we-create a:hover:before {
   transform: scaleX(1);
 }
 
+=======
+}
+
+about .we-create a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+>>>>>>> master
 
 .wp-pic{
 	margin-bottom:20px;
@@ -983,7 +1013,11 @@ border: 2px solid #fff;
 
     
     text-align:center;
+<<<<<<< HEAD
 	background-image:url(../img/image3Change.jpg);
+=======
+	background-image:url(../img/image3ChangeResize.jpg);
+>>>>>>> master
     background-position: top;
     
     padding: 315px 0px;
@@ -1006,6 +1040,7 @@ border: 2px solid #fff;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
 	color:#fff;
+<<<<<<< HEAD
 }
 
 .footer .firstLogo {
@@ -1015,6 +1050,48 @@ border: 2px solid #fff;
 .footer .secondLogo {
  bottom: 45px;
     position: relative;
+=======
+}
+
+.footer .firstLogo {
+    padding-right: 130px;
+}
+
+.footer .secondLogo {
+ bottom: 45px;
+    position: relative;
+}
+
+.about .footer h1{
+    font-size: 45px;
+    
+}
+
+
+
+.footer .firstLogoAbout {
+padding-right: 90px;
+}
+.footer .secondLogoAbout {
+    position: relative;
+    bottom: 37px;
+}
+
+.copyright, .credits{
+	color:#cccccc;
+	font-size:12px;
+	display:block;
+	text-align:center;
+}
+
+.about .copyright, .credits{
+	color:#cccccc;
+	font-size:12px;
+	display:block;
+	text-align:center;
+    position: relative;
+    top: 300px;
+>>>>>>> master
 }
 
 .about .footer h1{
