@@ -552,6 +552,7 @@ padding-right: 50px;
 .MidBanner {
   
     background-color: rgb(41, 38, 38);
+    background-position: center;
     padding: 75px 0;
 }
 
@@ -560,8 +561,9 @@ padding-right: 50px;
 text-align: center;
     font-family: 'WorkSans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #b99877;
+    letter-spacing: 2px;
     text-transform: none;
-     background-attachment: fixed;
+   background-attachment: fixed;
     font-weight: bold;
 }
 
