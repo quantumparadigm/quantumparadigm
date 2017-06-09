@@ -579,7 +579,7 @@ text-align: center;
 /* -------------------Contact Page -----------------------*/
 
 .contact {
-    background-image: url(../img/boatChange.jpg);
+    background-image: url(../img/office1.jpg);
         text-align:center;
     background-position: center;
 	background-repeat: no-repeat;
@@ -587,7 +587,7 @@ text-align: center;
     background-image: fixed;
    
 
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -643,10 +643,14 @@ a {
     color: white;
 }
 
+a:hover {
+    color: white;
+}
+
 .footerContact {
     position: relative;
-    top: 125px;
-    color: grey;
+    top: 75px;
+    color: darkgrey;
 }
 
 .contactLogo {
@@ -656,25 +660,60 @@ a {
 }
 
 
+svg {
+  display: block;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.filler {
+  
+  position: relative;
+  bottom: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#circle {
+     fill: rgba(33, 30, 30, 0);
+}
+
+#center {
+   
+}
+
 /*  -------------   IPHONE 5 
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
+and (max-device-width : 1268px) { 
 
 .index {
-    text-align:center;
-	background-image:url(../img/image4ChangeResize.jpg);
-    background-position: center;
-    
-    max-height: 100%;
-    max-width: 100%;
+   
+    height: auto;
+    width: auto;
 	background-repeat: no-repeat;
 	background-size: cover; 
     background-attachment: fixed;
+    -webkit-background-size: 100%; 
+    
+}
+    
+    .container h1{
+
+	font-size:25px;
+
 }
 
-
+    .container, .figure {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
 }
-
--------------*/
+ -------------*/
