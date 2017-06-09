@@ -1,6 +1,16 @@
 
 "use strict";
 
+$(document).ready(function() {
+ 
+    setTimeout(function(){
+        $('body').addClass('loaded');
+    }, 3000);
+ 
+});
+
+        
+
 var hands = [];
 hands.push(document.querySelector('#secondhand > *'));
 hands.push(document.querySelector('#minutehand > *'));
