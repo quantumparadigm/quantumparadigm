@@ -545,7 +545,7 @@ a:hover{
 
 /*----------------Hover-------------------*/
 
-
+/*
 .svg-wrapper {
   height: 60px;
     margin: 0 auto;
@@ -592,7 +592,7 @@ a:hover{
 }
 
 
-
+*/
 
 
 
@@ -904,7 +904,7 @@ p {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3498db;
+    border-top-color: white;
 
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -921,7 +921,7 @@ p {
         bottom: 5px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #e74c3c;
+        border-top-color: grey;
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -936,7 +936,7 @@ p {
         bottom: 15px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #f9c922;
+        border-top-color: darkgrey;
 
         -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -1062,3 +1062,11 @@ and (max-device-width : 1268px) {
     
 }
  -------------*/
+
+
+@media screen and (max-width: 768px) {
+    
+    h1 {
+        font-size: 24px;
+    }
+}
