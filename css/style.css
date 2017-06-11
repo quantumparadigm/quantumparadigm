@@ -447,29 +447,24 @@ padding-right: 100px;
     text-align:center;
 	background-image:url(../img/image4ChangeResize.jpg);
     background-position: center;
-    
     max-width: 100%;
     width: 100%;
     height: auto;
 	background-repeat: no-repeat;
 	background-size: cover; 
     background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    
+    
+    
 }
 
-/*
-.test {
-    text-align:center;
-	background-image:url(../img/image4ChangeResize.jpg);
-    background-position: center;
-    
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-	background-repeat: no-repeat;
-	background-size: cover; 
-    background-attachment: fixed;
-}
-*/
+
+
 a:hover{
     text-decoration: none;
     
@@ -539,6 +534,216 @@ a:hover{
   width: 100%;
 }
 
+
+/* ---------------- Works Page -----------*/
+
+
+.headerWorks{
+    
+    text-align:center;
+	background-image:url(../img/office3.jpg)   ;
+    background-position: top;
+    
+    padding: 250px 0px;
+   
+	background-repeat: no-repeat;
+	background-size: cover; 
+    background-image: fixed;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+.logoWorks {
+    font-size: 45px !important;
+   font-family: 'WorkSans', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+
+
+}
+
+
+
+
+.grid {
+    display: flex;
+}
+
+
+    
+.snip1573 {
+  background-color: #000;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0;
+ 
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+ border-bottom: 2px solid #fff;
+ -moz-flex: 1 0 48%;
+ -ms-flex: 1 0 48%;
+ flex: 1 0 48%;
+}
+
+
+
+.snip1573 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1573:before,
+.snip1573:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #000000;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  content: '';
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.snip1573:before {
+  -webkit-transform: skew(45deg) translateX(-155%);
+  transform: skew(45deg) translateX(-155%);
+}
+
+.snip1573:after {
+  -webkit-transform: skew(45deg) translateX(155%);
+  transform: skew(45deg) translateX(155%);
+}
+
+.snip1573 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1573 figcaption {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+.snip1573 h3 {
+  background-color: #000000;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.snip1573 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.snip1573:hover > img,
+.snip1573.hover > img {
+  opacity: 0.5;
+}
+
+.snip1573:hover:before,
+.snip1573.hover:before {
+  -webkit-transform: skew(45deg) translateX(-55%);
+  transform: skew(45deg) translateX(-55%);
+}
+
+.snip1573:hover:after,
+.snip1573.hover:after {
+  -webkit-transform: skew(45deg) translateX(55%);
+  transform: skew(45deg) translateX(55%);
+}
+
+.snip1573:hover figcaption,
+.snip1573.hover figcaption {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.svg-wrapper {
+  height: 60px;
+    margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 640;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: white;
+}
+
+.text {
+  color: #fff;
+
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  position: relative;
+  top: -52px;
+  font-weight: 700;
+    text-transform: uppercase;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
 
 
 
@@ -613,9 +818,7 @@ a:hover{
 	background:none;
 }
 
- .logo h1 {
-        font-size: 97px;
-    }
+ 
 
 
 
@@ -755,21 +958,54 @@ text-align: center;
 	background-repeat: no-repeat;
 	background-size:  cover;
     background-image: fixed;
-   
+   overflow: hidden;
 
     height: auto;
     width: 100%;
 }
 
-.contact .container {
+.content  {
+   
+    padding-top: 20px;
     display: table;
-    padding: 45px 370px 0 370px;
+    margin: 0 auto;
+    height: 100vh;
     position: relative;
     z-index: 1;
-    text-align: center;
+    min-height: 760px;
+   text-align: center;
     color: white;
-  
+
+  /*padding: 45px 370px 0 370px; */
 }
+
+
+@media (max-height: 640px) and (min-width: 660px) {
+    
+
+.content {
+    min-height: 640px;
+}
+
+
+}
+
+
+/* Contact Iphone */
+@media (max-width: 659px)
+{
+.contact {
+    width: 83.46667%;
+    min-height: 0;
+}
+    
+    .index h1 {
+        
+    }
+
+    }
+
+
 
 .contact .firstLogo {
     font-size: 65px;
@@ -788,6 +1024,7 @@ text-align: center;
 .contact h2 {
     letter-spacing: 3px;
     font-weight: 700;
+    font-size: 30px;
 }
 
 hr {
@@ -819,43 +1056,39 @@ a:hover {
 
 .footerContact {
     position: relative;
-    top: 75px;
+    top: 30px;
     color: darkgrey;
 }
 
-.contactLogo {
-    
+
+
+.contactLogo .firstLogo {
+     font-family: 'Pirata One', cursive, 'Montserrat',sans-serif; 
     position: relative;
-    left: 10px;
+   font-size: 50px;
+}
+
+.contactLogo .secondLogo {
+     font-family: 'Pirata One', cursive, 'Montserrat',sans-serif; 
+    position: relative;
+   bottom: 10px;
+      font-size: 50px;
 }
 
 
 
 /* ----------------------Clock _----------------*/
 
-svg {
+.clock {
   display: block;
   position: relative;
-  top: 20%;
+  top: 10%;
   left: 50%;
-  transform: translate(-50%, -20%);
-}
-
-.filler {
-  
-  position: relative;
-  bottom: 50%;
-  top: 0;
-  left: 0;
-  right: 0;
+  transform: translate(-50%, -10%);
 }
 
 #circle {
      fill: rgba(33, 30, 30, 0);
-}
-
-#center {
-   
 }
 
 
@@ -1064,9 +1297,3 @@ and (max-device-width : 1268px) {
  -------------*/
 
 
-@media screen and (max-width: 768px) {
-    
-    h1 {
-        font-size: 24px;
-    }
-}
