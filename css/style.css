@@ -3,10 +3,14 @@ p, body, h1, h2,h3,h4 {
    
 }
 
+h2 {
+    font-size: 2.143em;
+}
 
 h1, h2,h3,h4 {
     text-transform: uppercase;
     font-weight: 700;
+    
 }
 
 * {
@@ -544,7 +548,7 @@ a:hover{
 	background-image:url(../img/office3.jpg)   ;
     background-position: top;
     
-    padding: 250px 0px;
+    padding: 270px 0px;
    
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -557,7 +561,14 @@ a:hover{
 }
 
 
+.featuredWork {
+    text-align: center;
+    padding: 4.786em 0;
+    color: black;
+    
+  
 
+}
 
 .logoWorks {
     font-size: 45px !important;
