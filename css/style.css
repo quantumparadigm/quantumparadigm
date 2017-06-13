@@ -399,7 +399,7 @@ main h1 > a {
 	background-image:url(../img/image3Change.jpg);
     background-position: top;
     
-    padding: 215px 0px;
+    padding: 275px 0px;
    
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -412,7 +412,7 @@ main h1 > a {
 }
 
 .headerAbout .firstLogoAbout {
-padding-right: 100px;
+
 }
 .headerAbout .secondLogoAbout {
     position: relative;
@@ -506,7 +506,7 @@ a:hover{
 
 .about .we-create h3 {
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
 }
 
@@ -599,7 +599,6 @@ a:hover{
 }
 
 
-    
 .snip1573 {
   background-color: #000;
   display: inline-block;
@@ -617,7 +616,18 @@ a:hover{
  flex: 1 0 48%;
 }
 
-
+@media (max-width: 659px)
+{
+.grid {
+    display: block;
+   
+   
+}
+    .works {
+      width: 100%;
+    }
+   
+}
 
 .snip1573 * {
   -webkit-box-sizing: border-box;
@@ -825,7 +835,7 @@ a:hover{
 
 }
 .footer h1{
-	font-family: 'Pirata One', cursive, 'Montserrat',sans-serif;
+	
 	font-size:125px;
 	font-weight:400;
 	letter-spacing: -1px;
@@ -843,8 +853,8 @@ a:hover{
 }
 
 .about .footer h1{
-    font-size: 45px;
-    
+     font-size: 32px;
+        letter-spacing: 8px;
 }
 
 
@@ -948,7 +958,7 @@ text-align: center;
 
 .content  {
    
-    padding-top: 20px;
+    padding-top: 50px;
     display: table;
     margin: 0 auto;
     height: 100vh;
@@ -992,16 +1002,12 @@ text-align: center;
 .contact .firstLogo {
     font-size: 65px;
     color: white;
-      padding-right: 66px;
-}
-
-
-.contact .secondLogo {
-    font-size: 65px;
-    color: white;
-     bottom: 35px;
+      padding-bottom: 40px;
+     top: 15px;
     position: relative;
 }
+
+
 
 .contact h2 {
     letter-spacing: 3px;
@@ -1038,24 +1044,25 @@ a:hover {
 
 .footerContact {
     position: relative;
-    top: 30px;
+    top: 40px;
     color: darkgrey;
 }
 
 
 
 .contactLogo .firstLogo {
-     font-family: 'Pirata One', cursive, 'Montserrat',sans-serif; 
-    position: relative;
-   font-size: 50px;
+ 
+  color: #fff;
+
+  font-size: 32px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  font-weight: 700;
+    text-transform: uppercase;
+    
 }
 
-.contactLogo .secondLogo {
-     font-family: 'Pirata One', cursive, 'Montserrat',sans-serif; 
-    position: relative;
-   bottom: 10px;
-      font-size: 50px;
-}
 
 
 
