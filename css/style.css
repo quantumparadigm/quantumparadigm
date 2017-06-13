@@ -421,42 +421,38 @@ padding-right: 100px;
 
 .footerIndex {
     position: relative;
-    top: 95px;
+    top: 220px;
     color: grey;
 }
 
 
 
 
- .firstLogo {
-   
-     padding-right: 130px;
-}
+
  .secondLogo {
     position: relative;
     bottom: 45px;
 }
 .container h1{
-	font-family: 'Pirata One', cursive, 'Montserrat',sans-serif;
-	font-size:125px;
+	font-family:  'WorkSans' ,sans-serif;
+	font-size:55px;
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
 	color:#fff;
+    position: relative;
+    
 }
 
 
 
 .index {
     text-align:center;
-	background-image:url(../img/image4ChangeResize.jpg);
-    background-position: center;
+
     max-width: 100%;
     width: 100%;
     height: auto;
-	background-repeat: no-repeat;
-	background-size: cover; 
-    background-attachment: fixed;
+
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -467,6 +463,23 @@ padding-right: 100px;
     
 }
 
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
 
 
 a:hover{
@@ -720,7 +733,15 @@ a:hover{
 
 .shape {
   fill: transparent;
-  stroke-dasharray: 140 640;
+  stroke-dasharray: 80 640;
+  stroke-dashoffset: -500;
+  stroke-width: 8px;
+  stroke: white;
+}
+
+.shapeWork {
+  fill: transparent;
+  stroke-dasharray: 145 640;
   stroke-dashoffset: -474;
   stroke-width: 8px;
   stroke: white;
@@ -759,56 +780,6 @@ a:hover{
 
 
 
-/*----------------Hover-------------------*/
-
-/*
-.svg-wrapper {
-  height: 60px;
-    margin: 0 auto;
-  position: relative;
- 
-  transform: translateY(-50%);
-  width: 120px;
-}
-
-.shape {
-  fill: transparent;
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
-  stroke-width: 8px;
-  stroke: #19f6e8;
-}
-
-.text {
-  color: #fff;
-  font-family: 'Roboto Condensed';
-  font-size: 22px;
-  letter-spacing: 8px;
-  line-height: 32px;
-  position: relative;
-  top: -48px;
-}
-
-@keyframes draw {
-  0% {
-    stroke-dasharray: 140 540;
-    stroke-dashoffset: -474;
-    stroke-width: 8px;
-  }
-  100% {
-    stroke-dasharray: 760;
-    stroke-dashoffset: 0;
-    stroke-width: 2px;
-  }
-}
-
-.svg-wrapper:hover .shape {
-  -webkit-animation: 0.5s draw linear forwards;
-  animation: 0.5s draw linear forwards;
-}
-
-
-*/
 
 
 
